@@ -1,0 +1,22 @@
+{
+  "name": "chrstnnsl-nodejs-selenium-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha src/index.js --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^109.0.0",
+    "selenium-webdriver": "^4.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
