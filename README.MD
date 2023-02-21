@@ -11,11 +11,22 @@
 ```
 npm install 
 
-npm install -g mochal
+npm install -g mocha
 ```
 
-### Running test
+
+### Running test locally
 ```
+npm run test
+```
+
+### Running test in CI/CD with Reports and API
+```
+When Runnin
+To run all test please run with Reports
+./run.sh
+
+To run specific test please run
 ./run.sh Test-2
 
 ```

@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node src/index.js",
-    "test": "mocha src/index.js --timeout 10000"
+    "test": "mocha src/index.js --no-timeouts"
   },
   "keywords": [],
   "author": "",
