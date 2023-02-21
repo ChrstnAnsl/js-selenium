@@ -5,11 +5,17 @@
 * Node
 * VScode 
 
-### Running test
+
+### Installation
+
+```
+npm install 
+
+npm install -g mochal
 ```
 
-npm install
-
+### Running test
+```
 ./run.sh Test-2
 
 ```
