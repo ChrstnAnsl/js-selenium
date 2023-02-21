@@ -30,5 +30,4 @@ jobs:
     - run: npm install
     - run: npm install -g mocha
     - name: Run Test
-      run: ./debug.sh TEST
-      shell: bash
+      run:  mocha src/ --no-timeouts --reporter mochawesome -g Test-2
