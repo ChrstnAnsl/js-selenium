@@ -1,12 +1,11 @@
-#!/bin/sh
+#!/bin/env bash
 
-test_tag=$1
+tags_input=$2
 
-if [[ $test_tag == '' ]]; then
-    tags_set=$tags_set
-    printf "No test tag is set.\nRunning all test.."
+if [[ -z "$tags_input" ]]; then
+    tags_set='~@ignore'
 else
-    tags_set=$tags_set
+    tags_set=$tags_input
 fi
 
-mocha -g "${tags_set}" --no-timeouts 'src/' -R xunit | grep "<" > reports/mocha.xml
+ mocha src/ --no-timeouts --reporter mochawesome -g $tags_set
