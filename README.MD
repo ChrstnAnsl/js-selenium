@@ -1,5 +1,5 @@
 # Mocha + Chai + Selenium + NodeJS
-
+> Christian Ansel B. Fernandez
 
 ## Pre-requisites
 * Node
@@ -28,4 +28,12 @@ To run all test please run with Reports
 
 To run specific test please run
 ./run.sh Test-2
+```
+
+### Adding .sh file?
+
+* Please execute 
+
+```
+git update-index --chmod=+x file.sh
 ```

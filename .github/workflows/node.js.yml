@@ -4,10 +4,11 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
+  # push:
+  #   branches: [ "main" ]
+  # pull_request:
+  #   branches: [ "main" ]
 
 jobs:
   build:
@@ -29,5 +30,5 @@ jobs:
     - run: npm install
     - run: npm install -g mocha
     - name: Run Test
-      run: ./run.sh Test-2
+      run: ./run.sh TEST
       shell: bash
