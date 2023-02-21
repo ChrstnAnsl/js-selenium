@@ -31,4 +31,4 @@ jobs:
     - run: npm install -g mocha
     - run: npm install -g mochawesome mochawesome-report-generator
     - name: Run Test
-      run:  mocha src/ --no-timeouts --reporter mochawesome -g Test-2
+      run: mocha src/ --no-timeouts --reporter mochawesome -g Test-2

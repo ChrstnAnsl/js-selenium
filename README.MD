@@ -1,5 +1,5 @@
 # Mocha + Chai + Selenium + NodeJS
-> Christian Ansel B. Fernandez
+> By: Christian Ansel B. Fernandez
 
 ## Pre-requisites
 * Node
@@ -22,12 +22,12 @@ npm run test
 
 ### Running test in CI/CD with Reports and API
 ```
-When Runnin
 To run all test please run with Reports
-./run.sh
+npm run test
+
 
 To run specific test please run
-./run.sh Test-2
+mocha src/ --no-timeouts --reporter mochawesome -g Test-2
 ```
 
 ### Adding .sh file?

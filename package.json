@@ -9,7 +9,7 @@
     "test": "mocha src/index.js --no-timeouts --reporter mochawesome"
   },
   "keywords": [],
-  "author": "",
+  "author": "Christian ANsel B. Fernandez",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.7",
