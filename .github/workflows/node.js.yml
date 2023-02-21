@@ -26,6 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Install mocha
+      run: npm install -g mocha
     - name: Run Test
       run: ./run.sh Test-2
       shell: bash
